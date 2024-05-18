@@ -97,7 +97,7 @@
     border-left: 0.5rem solid rgb(202, 40, 81);
     padding-left: 1rem;
 }
-.nav-item:hover{
+.active{
     background-color: rgb(165, 23, 70);
     border-radius: 0.2rem;
     
@@ -145,4 +145,31 @@ i{
 table{
     border: 1px solid black;
 }
-
+.nav-item:hover ::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    bottom: 0%;
+    background-color: rgb(218, 44, 93);
+    color: azure;
+    border-radius: 100px;
+   animation: move 2s forwards infinite; 
+  }
+  
+  
+  
+  @keyframes move{
+    0%{
+      left: 50%;
+      width: 0%;
+    }
+    50%{
+      left: 0%;
+    width: 100%;
+    }
+    100%{
+      left: 50%;
+      width: 0%;
+    }
+  }
