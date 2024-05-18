@@ -97,8 +97,8 @@
     border-left: 0.5rem solid rgb(202, 40, 81);
     padding-left: 1rem;
 }
-.active{
-    background-color: rgb(165, 23, 70);
+.activenav{
+    background-color: rgb(218, 44, 93);
     border-radius: 0.2rem;
     
 }
