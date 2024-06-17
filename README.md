@@ -1,2 +1,2 @@
-<h2>PORTOFOLIO</h2>
+<h2>PORTOFLIO</h2>
 <sup>“Welcome to my personal portfolio project! This repository contains the code for my professional portfolio website, designed to showcase my front-end development skills. As a student deeply passionate about web design and user experience, I’ve crafted this site to highlight my projects, skills, and journey in the world of coding. Dive into the code to see how I’ve implemented responsive design, interactive elements, and modern front-end technologies to create an engaging online presence.” </sup>
