@@ -4,8 +4,7 @@
     animation: loading 1.2s ease-in-out infinite;
 }
 .carousel-caption{
-background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,8,8,1) 35%, rgba(74,74,74,1) 100%);
+text-shadow:2px 2px 2px white;
 }
 
 @keyframes loading {
